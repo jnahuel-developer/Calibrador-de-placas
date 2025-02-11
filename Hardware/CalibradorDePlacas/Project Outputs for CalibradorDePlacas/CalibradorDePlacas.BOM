@@ -1,0 +1,56 @@
+Bill of Material for 
+On 16/3/2020 at 00:06:50
+
+ Comment             Pattern     Quantity  Components
+------------------------------------------------------------------------------
+ 10                  R_0805           1    R33                          RES SMD 10 OHM 1% 1/8W 0805 
+ 100                 R 10W            1    R23                          RES 100 OHM 10W 5% AXIAL 
+ 100                 R_0805           3    R13, R21, R28                RES SMD 100 OHM 1% 1/8W 0805 
+ 100nF               C_0805           9    C1, C2, C3, C4, C5, C6, C8   CAP CER 0.1UF 25V X7R 0805 
+                                           C12, C13
+ 100pF               C_0805           1    C11                          CAP CER 100PF 50V C0G/NP0 0805 
+ 10K                 R_0805           3    R17, R30, R31                RES SMD 10K OHM 1% 1/8W 0805 
+ 10M                 R_0805           1    R19                          RES SMD 10M OHM 5% 1/8W 0805 
+ 10nF                C_0805           1    C7                           CAP CER 10000PF 25V X7R 0805 
+ 1K                  R_0805          14    R1, R2, R4, R5, R6, R7, R8   RES SMD 1K OHM 1% 1/8W 0805 
+                                           R9, R10, R11, R14, R15, R32
+                                           R34
+ 22pF                C_0805           2    C9, C10                      CAP CER 22PF 50V C0G/NP0 0805 
+ 2K                  R_0805           1    R12                          RES SMD 2K OHM 1% 1/8W 0805 
+ 330                 R_0805           1    R18                          RES SMD 330 OHM 1% 1/8W 0805 
+ 4.9152MHZ           XTAL_LOW         1    Y1                           CRYSTAL 4.9152MHZ 18PF T/H 
+ 470                 R_0805           5    R3, R22, R24, R25, R26       RES SMD 470 OHM 1% 1/8W 0805 
+ 4K7                 R_0805           3    R16, R20, R27                RES SMD 4K7 OHM 1% 1/8W 0805 
+ 5K                  PRESET_SMD       1    R29                          TRIMMER 5K OHM 0.5W GW TOP ADJ 
+ BC817-40LT          SOT23            4    Q1, Q2, Q3, Q4               TRANS NPN 45V 0.5A SOT23 
+ CD74HC390M96        SOIC16           1    U3                           IC DUAL DECADE RPL COUNTR 16SOIC 
+ DBM                 DBM              1    DB                           CONN HEADER VERT 6POS 2.54MM 
+ DS18S20-SMD-Soldado SOIC8            2    DS_Propio_SMD, DS_RF_SMD     SENSOR DIGITAL -55C-125C 8SOIC 
+ DS18S20-TH-Soldado  TO92             2    DS_Propio_TH, DS_RF_TH       Temperature Sensor Digital, Local -55°C ~ 125°C 8 b TO-92-3 
+ FDLL4148            SOD-80/MLL34     6    D1, D2, D3, D4, D5, D6       DIODE GEN PURP 100V 200MA LL34/SOD80/MINI MELF 
+ IN_Alimentacion     B2B-XH-A_3D      1    M1                           CONN HEADER XH TOP 2POS 2.5MM 
+ IN_ControlHimfu     B7B-XH-A_3D      1    P2                           CONN HEADER XH TOP 7POS 2.5MM 
+ IN_ControlRF_Leds   B7B-XH-A_3D      1    P6                           CONN HEADER XH TOP 7POS 2.5MM 
+ IN_ControlRF_M3     B2B-XH-A_3D      1    M3                           CONN HEADER XH TOP 2POS 2.5MM 
+ IN_ControlRF_Sensores B4B-XH-A_3D      1    P7                           CONN HEADER XH TOP 4POS 2.5MM 
+ IN_DriverHimfu      B4B-XH-A_3D      1    P3                           CONN HEADER XH TOP 4POS 2.5MM 
+ IN_DriverRF         B2B-XH-A_3D      1    M4                           CONN HEADER XH TOP 2POS 2.5MM 
+ IN_Puntas           B3B-XH-A_3D      1    P1                           CONN HEADER XH TOP 3POS 2.5MM 
+ JMP                 SMD_JMP          4    W_Himfu+1, W_Himfu-1, W_RF+1 Islas para hacer un jumper con estaño 
+                                           W_RF-1
+ LCD_Pines           LCD_PINES        1    LCD                          CONN HEADER VERT 16POS 2.54MM 
+ LM431               SOT89            1    U9                           IC VREF SHUNT 36V 1% SOT89-3 
+ MC78M05             TO-252AA_N       1    U1                           IC REG LINEAR 5V 500MA DPAK 
+ MC9S08AC16-44       QFP10X10-G44/Z14.4N    1    U5                           S08 S08 Microcontroller IC 8-Bit 40MHz 16KB (16K x 8) FLASH 32-LQFP (7x7) 
+ OUT_Comunicacion    B4B-XH-A_3D      1    P5                           CONN HEADER XH TOP 4POS 2.5MM 
+ OUT_Potenciometro   B3B-XH-A_3D      1    P4                           CONN HEADER XH TOP 3POS 2.5MM 
+ OUT_PuntasDelTester B2B-XH-A_3D      1    M2                           CONN HEADER XH TOP 2POS 2.5MM 
+ PinesParaLed        JUMPER-SIMPLE    7    L_M2, L_M4, L_M5, L_M11      CONN HEADER 2 POS 2.54 
+                                           L_Mal, L_OK, Ld3
+ PinesParaPulsador   JUMPER-SIMPLE    2    Pul1, Pul2                   CONN HEADER 2 POS 2.54 
+ Relay-DPDT-Omrom General RELAY_DPDT       3    K_Himfu, K_RF, K_Tester      RELAY GEN PURPOSE DPDT 1A 12VDC 
+ Relay-DPDT-Omrom RF Relay RF omron    1    K1                           RELAY RF DPDT 1A 12V 
+ SN74LVC2G14DBVR     SOT23-6          1    U2                           IC INVERTER SCHMITT 2CH SOT23-6 
+ SN7517              751-07_N         1    U6                           IC TXRX DIFF BUSS 8SOIC 
+ TS3A4751PWR         TSSOP14          1    U4                           IC SWITCH QUAD SPST 14TSSOP 
+ TS5A3159ADBVR       SOT23-6          2    U7, U8                       IC SWITCH SPDT SOT23-6 
